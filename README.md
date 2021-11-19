@@ -19,7 +19,8 @@ choose one among them. After choosing one, the list of all the syntaxes from tha
 specific programming language will be shown.
 
 ### Project Members:
+- Aaron Sahagun (Cl0udRain)
 - Jansen Agcaoili (Sabinimamamasamayan)
 - Jon Magsino (SiftJon)
 - Caren Tolentino (Awee320)
-- Aaron Sahagun (Cl0udRain)
+
