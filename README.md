@@ -1,19 +1,22 @@
 # Mission-Impossible
-⋅⋅⋅Section: CS-1102
-⋅⋅⋅Subject: CS111
+  Section: CS-1102
+  Subject: CS111
 
-## **VaccMan System (Vaccination Management System)**
+## **D-CS-IT (Digital Dictionary for CS & IT)**
 
 ### Description:
-The main purpose of our program is to store a compilation of
-vaccinated BatStateU students within Alangilan campus. The compilation
-of the students’ information are grouped by their program and course.
-Student’s information includes the following : Name, Gender, Address ,
-SR- code , Program & Course , Section, Vaccine brand , and their
-Vaccination Status ( First dose/ Fully Vaccinated). The compilation will be
-encoded as an excel file for a more organized list. This program would be
-beneficial to the university in order to identify the vaccination status of
-students in preparation for the face-to-face class.
+As computer science students, we know the difficulty in retaining all the
+syntaxes of different programming languages. The purpose of this program is to
+provide the purpose of different syntaxes of various programming language
+specifically C++, Java, and Python.
+D-CS-IT has two functionalities:
+1. It will show the list of all the syntaxes of the programming language in
+alphabetical order together with its purpose.
+2. Enable the user to find the purpose of a specified syntax of a programming
+language the user wanted to look for.
+From the programming languages given above (C++, Java, Python), the user can
+choose one among them. After choosing one, the list of all the syntaxes from that
+specific programming language will be shown.
 
 ### Project Members:
 - Jansen Agcaoili (Sabinimamamasamayan)
