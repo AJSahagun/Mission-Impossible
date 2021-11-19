@@ -3,14 +3,22 @@
 //parts of the syntax
 
 Class :It is basically a template or blueprint that describes the behavior/states of the object.
-Methods :Any behavior can be called as the methods in C++. Methods are known as the most important part of the C++ as all the operations like writing logics, manipulating data and all other actions are executed. There can be numerous methods in a class.
-Object :Objects in C++ consists of behaviors and states, for instance: A tree has a name and color and characteristics. Please note that object is basically an instance of class.
-Instance Variables :The state of an object is generally created by the values that are assigned to the instance variables as each object has its own unique set of instance variables.
-Constructors: It is a special method that is called automatically as soon as the object is created
-Escape Sequences: It is a sequence of characters starting with a backslash, and it doesn't represent itself when used inside string literal.
+
 Comments: A comment is a code that is not executed by the compiler, and the programmer uses it to keep track of the code.
-Strings: It is a collection of characters surrounded by double quotes ("")
+
+Constructors: It is a special method that is called automatically as soon as the object is created
+
+Escape Sequences: It is a sequence of characters starting with a backslash, and it doesn't represent itself when used inside string literal.
+
 Exception Handling: An exception is an unusual condition that results in an interruption in the flow of the program.
+
+Instance Variables :The state of an object is generally created by the values that are assigned to the instance variables as each object has its own unique set of instance variables.
+
+Methods :Any behavior can be called as the methods in C++. Methods are known as the most important part of the C++ as all the operations like writing logics, manipulating data and all other actions are executed. There can be numerous methods in a class.
+
+Object :Objects in C++ consists of behaviors and states, for instance: A tree has a name and color and characteristics. Please note that object is basically an instance of class.
+
+Strings: It is a collection of characters surrounded by double quotes ("")
 
 // basic syntax and functions
 cout<<: It prints output on the screen
@@ -51,3 +59,5 @@ recurse: Recursion is when a function calls a copy of itself to work on a minor 
 try: Allows to define a block of code to be tested for errors while it is being executed.
 throw: Throws an exception when a problem is detected, which lets us create a custom error.
 catch: allows to define a block of code to be executed, if an error occurs in the try block.
+#include <iostream>: the header file which contains all the functions of program like cout, cin etc. and #include tells the preprocessor to include these header file in the program.
+using namespace std.: Use the namespace named std. “std” is an abbreviation for standard.
