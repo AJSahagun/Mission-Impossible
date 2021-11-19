@@ -1,2 +1,53 @@
 //Basic syntaxes of C++
 
+//parts of the syntax
+
+Class :It is basically a template or blueprint that describes the behavior/states of the object.
+Methods :Any behavior can be called as the methods in C++. Methods are known as the most important part of the C++ as all the operations like writing logics, manipulating data and all other actions are executed. There can be numerous methods in a class.
+Object :Objects in C++ consists of behaviors and states, for instance: A tree has a name and color and characteristics. Please note that object is basically an instance of class.
+Instance Variables :The state of an object is generally created by the values that are assigned to the instance variables as each object has its own unique set of instance variables.
+Constructors: It is a special method that is called automatically as soon as the object is created
+Escape Sequences: It is a sequence of characters starting with a backslash, and it doesn't represent itself when used inside string literal.
+Comments: A comment is a code that is not executed by the compiler, and the programmer uses it to keep track of the code.
+Strings: It is a collection of characters surrounded by double quotes ("")
+Exception Handling: An exception is an unusual condition that results in an interruption in the flow of the program.
+
+// basic syntax and functions
+cout<<: It prints output on the screen
+cin>>: It takes input from the user
+char: Typically a single octet(one byte). It is an integer type
+int: The most natural size of integer for the machine
+float: A single-precision floating-point value
+double: A double-precision floating-point value
+void: Represents the absence of the type
+bool:	Stores true or false values
+\a: It produces a beep sound
+\b: It adds backspace
+\f: Formfeed character
+\n: Newline character
+\r: Carriage return
+\t: Gives tab space
+\\: It adds a backslashspace
+\': It adds a single quotation mark
+\?: It adds a question mark
+\nnn: It represents the value of an octal number
+\xhh: It represents the value of a hexadecimal number
+\0: The null character is usually used to terminate a string
+//: // It's a single line comment
+ /*: /* It's a multi-line comment */
+.appended: It is used to concatenate two strings
+.length: It returns the length of the string
+if: Code will get executed if the condition is True
+else: If the condition is False then this block will get executed
+switch case: It allows a variable to be tested for equality against a list of values (cases).
+while: It iterates the block of code as long as a specified condition is True
+for: It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list.
+break: Used to terminate the loop
+continue: Skips the rest of the current iteration of the loop and returns to the starting point of the loop
+*: Creating a pointer which "points" to the mem address of a variable
+&: Means "get the mem address of this variable"
+function: Used to divide an extensive program into smaller pieces.
+recurse: Recursion is when a function calls a copy of itself to work on a minor problem.
+try: Allows to define a block of code to be tested for errors while it is being executed.
+throw: Throws an exception when a problem is detected, which lets us create a custom error.
+catch: allows to define a block of code to be executed, if an error occurs in the try block.
