@@ -23,8 +23,15 @@ Strings: It is a collection of characters surrounded by double quotes ("")
 // basic syntax and functions
 
 #include <iostream>: the header file which contains all the functions of program like cout, cin etc. and #include tells the preprocessor to include these header file in the program.
-&: Means "get the mem address of this variable"
-*: Creating a pointer which "points" to the mem address of a variable
++: Adds together two values
+-: Subtracts one value from another
+*:	Multiplies two values
+/:	Divides one value by another	
+%: Returns the division remainder	
+++:	Increases the value of a variable by 1	
+--:	Decreases the value of a variable by 1
+string&: Means "get the mem address of this variable"
+string*: Creating a pointer which "points" to the mem address of a variable
 .appended: It is used to concatenate two strings
 .length: It returns the length of the string
  /*: /* It's a multi-line comment */
@@ -62,4 +69,3 @@ try: Allows to define a block of code to be tested for errors while it is being 
 using namespace std.: Use the namespace named std. “std” is an abbreviation for standard.
 void: Represents the absence of the type
 while: It iterates the block of code as long as a specified condition is True
-
