@@ -21,43 +21,45 @@ Object :Objects in C++ consists of behaviors and states, for instance: A tree ha
 Strings: It is a collection of characters surrounded by double quotes ("")
 
 // basic syntax and functions
-cout<<: It prints output on the screen
-cin>>: It takes input from the user
-char: Typically a single octet(one byte). It is an integer type
-int: The most natural size of integer for the machine
-float: A single-precision floating-point value
-double: A double-precision floating-point value
-void: Represents the absence of the type
-bool:	Stores true or false values
+
+#include <iostream>: the header file which contains all the functions of program like cout, cin etc. and #include tells the preprocessor to include these header file in the program.
+&: Means "get the mem address of this variable"
+*: Creating a pointer which "points" to the mem address of a variable
+.appended: It is used to concatenate two strings
+.length: It returns the length of the string
+ /*: /* It's a multi-line comment */
+//: // It's a single line comment
+\': It adds a single quotation mark
+\?: It adds a question mark
+\\: It adds a backslashspace
+\0: The null character is usually used to terminate a string
 \a: It produces a beep sound
 \b: It adds backspace
 \f: Formfeed character
 \n: Newline character
+\nnn: It represents the value of an octal number
 \r: Carriage return
 \t: Gives tab space
-\\: It adds a backslashspace
-\': It adds a single quotation mark
-\?: It adds a question mark
-\nnn: It represents the value of an octal number
 \xhh: It represents the value of a hexadecimal number
-\0: The null character is usually used to terminate a string
-//: // It's a single line comment
- /*: /* It's a multi-line comment */
-.appended: It is used to concatenate two strings
-.length: It returns the length of the string
-if: Code will get executed if the condition is True
-else: If the condition is False then this block will get executed
-switch case: It allows a variable to be tested for equality against a list of values (cases).
-while: It iterates the block of code as long as a specified condition is True
-for: It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list.
+bool:	Stores true or false values
 break: Used to terminate the loop
-continue: Skips the rest of the current iteration of the loop and returns to the starting point of the loop
-*: Creating a pointer which "points" to the mem address of a variable
-&: Means "get the mem address of this variable"
-function: Used to divide an extensive program into smaller pieces.
-recurse: Recursion is when a function calls a copy of itself to work on a minor problem.
-try: Allows to define a block of code to be tested for errors while it is being executed.
-throw: Throws an exception when a problem is detected, which lets us create a custom error.
 catch: allows to define a block of code to be executed, if an error occurs in the try block.
-#include <iostream>: the header file which contains all the functions of program like cout, cin etc. and #include tells the preprocessor to include these header file in the program.
+char: Typically a single octet(one byte). It is an integer type
+cin>>: It takes input from the user
+continue: Skips the rest of the current iteration of the loop and returns to the starting point of the loop
+cout<<: It prints output on the screen
+double: A double-precision floating-point value
+else: If the condition is False then this block will get executed
+float: A single-precision floating-point value
+for: It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list.
+function: Used to divide an extensive program into smaller pieces.
+if: Code will get executed if the condition is True
+int: The most natural size of integer for the machine
+recurse: Recursion is when a function calls a copy of itself to work on a minor problem.
+switch case: It allows a variable to be tested for equality against a list of values (cases).
+throw: Throws an exception when a problem is detected, which lets us create a custom error.
+try: Allows to define a block of code to be tested for errors while it is being executed.
 using namespace std.: Use the namespace named std. “std” is an abbreviation for standard.
+void: Represents the absence of the type
+while: It iterates the block of code as long as a specified condition is True
+
