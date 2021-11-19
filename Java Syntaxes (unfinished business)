@@ -48,8 +48,8 @@ char = The char data type is a single 16-bit Unicode character. It has a minimum
 
 /Three types of Printing
 void System.out.print(String s) = will perform the basic print s
-void System.out.printIn(String s) = will perform the print with a newline
-void System.out.printIn() = will print a newline
+void System.out.println(String s) = will perform the print with a newline
+void System.out.println() = will print a newline
 
 /Parsing command-line arguments 
 
