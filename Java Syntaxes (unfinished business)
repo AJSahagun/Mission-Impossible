@@ -1,0 +1,162 @@
+//Java basic syntaxes.
+
+byte = The byte data type is an 8-bit signed two's complement integer. 
+It has a minimum value of -128 and a maximum value of 127 (inclusive). 
+The byte data type can be useful for saving memory in large arrays, where the memory savings actually matters. 
+They can also be used in place of int where their limits help to clarify your code; the fact that a variable's range is limited can serve as a form of documentation.
+
+short = The short data type is a 16-bit signed two's complement integer. 
+It has a minimum value of -32,768 and a maximum value of 32,767 (inclusive).
+As with byte, the same guidelines apply: you can use a short to save memory in large arrays, in situations where the memory savings actually matters.
+
+int = By default, the int data type is a 32-bit signed two's complement integer, which has a minimum value of -231 and a maximum value of 231-1. 
+In Java SE 8 and later, you can use the int data type to represent an unsigned 32-bit integer, which has a minimum value of 0 and a maximum value of 232-1. 
+Use the Integer class to use int data type as an unsigned integer. See the section The Number Classes for more information. Static methods like compareUnsigned, 
+divideUnsigned etc have been added to the Integer class to support the arithmetic operations for unsigned integers.
+
+long = The long data type is a 64-bit two's complement integer. 
+The signed long has a minimum value of -263 and a maximum value of 263-1. In Java SE 8 and later, you can use the long data type to represent an unsigned 64-bit long, 
+which has a minimum value of 0 and a maximum value of 264-1. Use this data type when you need a range of values wider than those provided by int. 
+The Long class also contains methods like compareUnsigned, divideUnsigned etc to support arithmetic operations for unsigned long.
+
+double = The double data type is a double-precision 64-bit IEEE 754 floating point. 
+Its range of values is beyond the scope of this discussion, but is specified in the Floating-Point Types, Formats, and Values section of the Java Language Specification.
+For decimal values, this data type is generally the default choice. As mentioned above, this data type should never be used for precise values, such as currency.
+
+float = The float data type is a single-precision 32-bit IEEE 754 floating point. 
+Its range of values is beyond the scope of this discussion, but is specified in the Floating-Point Types, Formats, and Values section of the Java Language Specification.
+As with the recommendations for byte and short, use a float (instead of double) if you need to save memory in large arrays of floating point numbers. 
+This data type should never be used for precise values, such as currency. For that, you will need to use the java.math.BigDecimal class instead. 
+Numbers and Strings covers BigDecimal and other useful classes provided by the Java platform.
+
+boolean = The boolean data type has only two possible values: true and false. 
+Use this data type for simple flags that track true/false conditions. 
+This data type represents one bit of information, but its "size" isn't something that's precisely defined. Having a values of true or false, 
+literals which are also true or false, operations; and, or, not, and operators; &&, | |,  !.
+
+char = The char data type is a single 16-bit Unicode character. It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive).
+
+
+
+/Comparison operators
+== mean equal
+!= not equal
+<= less than or equal
+> greater than
+>=  greater than or equal
+
+
+/Three types of Printing
+void System.out.print(String s) = will perform the basic print s
+void System.out.printIn(String s) = will perform the print with a newline
+void System.out.printIn() = will print a newline
+
+/Parsing command-line arguments 
+
+int Integer.parseInt(String s) = will convert s into a int value
+double Double.parseDouble (String s) = convert s into a double value
+long Long.parseLong (String s) = convert s into a long value
+
+/Control statements
+
+/Conditions statements
+
+if = if statement is the most simple decision-making statement. 
+It is used to decide whether a certain statement or block of statements will be 
+executed or not i.e if a certain condition is true then a block of statement is executed otherwise not.
+
+if....else = if...else statement is a control flow statement that allows you to execute a block of code only if a certain condition is met.
+
+switch(statement) = A switch statement allows a variable to be tested for equality against a list of values. 
+Each value is called a case, and the variable being switched on is checked for each case.
+
+/Iterations statments
+
+while = Java while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. 
+The while loop can be thought of as a repeating if statement.
+
+for = Java for loop  is an entry-controlled loop that facilitates a user to execute a block of a statement(s) iteratively for a fixed number of times. 
+The number of iterations depends on the test-condition given inside the “for” loop.Java “for” loop is one of the easiest to understand Java loops. 
+All the elements of its loop-control that is, initialization, test-expression, and update-expression, gather at one place, that is, 
+on the top of the loop within the round brackets().
+
+
+Do-while loop =  Java do-while loop is used to iterate a part of the program repeatedly, until the specified condition is true. 
+If the number of iteration is not fixed and you must have to execute the loop at least once, it is recommended to use a do-while loop.
+
+/Jump Statments 
+
+break = Break Statement is a loop control statement that is used to terminate the loop. 
+As soon as the break statement is encountered from within a loop, the loop iterations stop there, and control returns from the loop immediately to the first statement after the loop.
+
+continue = The continue statement discontinues the current iteration of the current control statement and begins the next iteration. 
+
+return = The return statement is used to end method execution and to return a value. 
+A value returned by the method is written after the return keyword. If the method returns anything but void, it must use the return statement to return some value.
+
+
+/Exceptions 
+
+try = A try statement is used to catch exceptions that might be thrown as your program executes. 
+You should use a try statement whenever you use a statement that might throw an exception That way, your program won’t crash if the exception occurs.
+
+catch = The catch keyword catches exceptions generated by try statements.
+The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+
+finally = A finally syntax contains all the crucial statements that must be executed whether exception occurs or not. 
+The statements present in this block will always execute regardless of whether exception occurs in try block or not such as closing a connection, stream etc.
+
+
+/Arrays
+
+String[]= string is basically an object that represents sequence of char values. An array of characters works same as Java string.
+
+
+/Classes
+
+class = A class in the context of Java, is a template used to create objects and to define object data types and methods. 
+Classes are categories, and objects are items within each category. All class objects should have the basic class properties. 
+Core properties include the actual attributes/values and methods that may be used by the object.
+
+public = public is a Java keyword which declares a member's access as public. Public members are visible to all other classes. 
+This means that any other class can access a public field or method. Further, other classes can modify public fields unless the field is declared as final.
+
+private = The private keyword is an access modifier used for attributes, methods and constructors, making them only accessible within the declared class.
+
+protected = The protected keyword is an access modifier used for attributes, methods and constructors, making them accessible in the same package and subclasses.
+
+static = static keyword is used to define the class level members of a class. 
+static members of a class are stored in the class memory and you can access them directly through class name. No need to instantiate a class. 
+
+abstract = abstract keyword is used to implement the abstraction in java. 
+A method which doesn’t have method definition must be declared as abstract and the class containing it must be declared as abstract. 
+You can’t instantiate abstract classes. Abstract methods must be implemented in the sub classes. You can’t use abstract keyword with variables and constructors.
+
+extends = The idea behind inheritance in Java is that you can create new classes
+that are built upon existing classes.
+When you inherit from an existing class, you can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current class also.
+
+/Enumerations
+
+enum = (Enumeration) this language feature was introduced in J2SE 5.0. Technically enumerations are a kind of class containing enum constants in its body. 
+Each enum constant defines an instance of the enum type. Enumeration classes cannot be instantiated anywhere except in the enumeration class itself.
+
+/Interfaces 
+
+interfaces = Interfaces are types which contain no fields and usually define a number of methods without an actual implementation. 
+They are useful to define a contract with any number of different implementations. Every interface is implicitly abstract. 
+Interface methods are allowed to have a subset of access modifiers depending on the language version, strictfp, which has the same effect as for classes, and also static since Java SE 8.
+
+implement = An interface is implemented by a class using the implements keyword. 
+It is allowed to implement more than one interface, in which case they are written after implements keyword in a comma-separated list. 
+Class implementing an interface must override all its methods, otherwise it must be declared as abstract.
+
+default = An interface is implemented by a class using the implements keyword. 
+It is allowed to implement more than one interface, in which case they are written after implements keyword in a comma-separated list. 
+Class implementing an interface must override all its methods, otherwise it must be declared as abstract.
+
+
+
+
+
+
