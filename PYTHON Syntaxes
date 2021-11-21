@@ -6,15 +6,15 @@
 {capitalize()", "Converts the first character to upper case"}
 {chr()", "Returns a character from the specified Unicode code."}
 {clear()", "Removes all the elements from the dictionary"}
-{clear()", "Removes all the elements from the list"}
-{clear()", "Removes all the elements from the set"}
+*{clear()", "Removes all the elements from the list"}
+*{clear()", "Removes all the elements from the set"}
 {close()", "Closes the file"}
 {compile()"," Returns the specified source as an object, ready to be executed"}
 {copy()", "Returns a copy of the dictionary"}
-{copy()", "Returns a copy of the list"}
-{copy()", "Returns a copy of the set"}
+*{copy()", "Returns a copy of the list"}
+*{copy()", "Returns a copy of the set"}
 {count()", "Returns the number of times a specified value occurs in a string"}
-{count()", "Returns the number of times a specified value occurs in a tuple
+*{count()", "Returns the number of times a specified value occurs in a tuple
 {detach()", "Returns the separated raw stream from the buffer"}
 {dict()", "Returns a dictionary (Array)"}
 {discard()", " Remove the specified item"}
@@ -27,13 +27,13 @@
 {hash()", "Returns the hash value of a specified object"}
 {help()", "Executes the built-in help system"}
 {index()", "Returns the index of the first element with the specified value"}
-{index()", "Searches the string for a specified value and returns the position of where it was found"}
-{index()", "Searches the tuple for a specified value and returns the position of where it was found"}
+*{index()", "Searches the string for a specified value and returns the position of where it was found"}
+*{index()", "Searches the tuple for a specified value and returns the position of where it was found"}
 {input()", "Allowing user input"}
 {insert()", "Adds an element at the specified position"}
 {int()", "Returns an integer number"}
 {intersection()", "Returns a set, that is the intersection of two or more sets"}
-{{list()", "Returns a list"}
+{list()", "Returns a list"}
 {pop()", "Removes an element from the set"}
 {print()", "Prints to the standard output device"}
 {remove()", "Removes the specified element"}
@@ -48,24 +48,3 @@
 {type()", "Returns the type of an object"}
 {update()", "Updates the dictionary with the specified key-value pairs"}
 {values()", "Returns a list of all the values in the dictionary"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
