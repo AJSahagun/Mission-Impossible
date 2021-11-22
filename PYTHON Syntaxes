@@ -1,50 +1,43 @@
 {"abs()", "Returns the absolute value of a number"}
 {"add()", "Adds an element to the set"}
-{all()", "Returns True if all items in an iterable object are true"}
-{any()", "Returns True if any item in an iterable object is true"}
-{bool()", "Returns the boolean value of the specified object"}
-{capitalize()", "Converts the first character to upper case"}
-{chr()", "Returns a character from the specified Unicode code."}
-{clear()", "Removes all the elements from the dictionary"}
-*{clear()", "Removes all the elements from the list"}
-*{clear()", "Removes all the elements from the set"}
-{close()", "Closes the file"}
-{compile()"," Returns the specified source as an object, ready to be executed"}
-{copy()", "Returns a copy of the dictionary"}
-*{copy()", "Returns a copy of the list"}
-*{copy()", "Returns a copy of the set"}
-{count()", "Returns the number of times a specified value occurs in a string"}
-*{count()", "Returns the number of times a specified value occurs in a tuple
-{detach()", "Returns the separated raw stream from the buffer"}
-{dict()", "Returns a dictionary (Array)"}
-{discard()", " Remove the specified item"}
-{encode()", "Returns an encoded version of the string"}
-{enumerate()", "Takes a collection (e.g. a tuple) and returns it as an enumerate object"}
-{val()", "Evaluates and executes an expression"}
-{exec()", "Executes the specified code (or object)"}
-{float()", "Returns a floating point number"}
-{get()", "Returns the value of the specified key"}
-{hash()", "Returns the hash value of a specified object"}
-{help()", "Executes the built-in help system"}
-{index()", "Returns the index of the first element with the specified value"}
-*{index()", "Searches the string for a specified value and returns the position of where it was found"}
-*{index()", "Searches the tuple for a specified value and returns the position of where it was found"}
-{input()", "Allowing user input"}
-{insert()", "Adds an element at the specified position"}
-{int()", "Returns an integer number"}
-{intersection()", "Returns a set, that is the intersection of two or more sets"}
-{list()", "Returns a list"}
-{pop()", "Removes an element from the set"}
-{print()", "Prints to the standard output device"}
-{remove()", "Removes the specified element"}
-{set()", "Returns a new set object"}
-{sort()", "Sorts the list"}
-{sorted()", "Returns a sorted list"}
-{str()", "Returns a string object"}
-{sum()", "Sums the items of an iterator"}
-{tell()", "Returns the current file position"}
-{title()", "Converts the first character of each word to upper case"}
-{tuple()", "Returns a tuple"}
-{type()", "Returns the type of an object"}
-{update()", "Updates the dictionary with the specified key-value pairs"}
-{values()", "Returns a list of all the values in the dictionary"}
+{"all()", "Returns True if all items in an iterable object are true"}
+{"any()", "Returns True if any item in an iterable object is true"}
+{"bool()", "Returns the boolean value of the specified object"}
+{"capitalize()", "Converts the first character to upper case"}
+{"chr()", "Returns a character from the specified Unicode code."}
+{"clear()", "Removes all the elements from the dictionary, list, and set"}
+{"close()", "Closes the file"}
+{"compile()"," Returns the specified source as an object, ready to be executed"}
+{"copy()", "Returns a copy of the dictionary, list, and set"}
+{"count()", "Returns the number of times a specified value occurs in a string, and tuple"}
+{"detach()", "Returns the separated raw stream from the buffer"}
+{"dict()", "Returns a dictionary (Array)"}
+{"discard()", " Remove the specified item"}
+{"encode()", "Returns an encoded version of the string"}
+{"enumerate()", "Takes a collection (e.g. a tuple) and returns it as an enumerate object"}
+{"val()", "Evaluates and executes an expression"}
+{"exec()", "Executes the specified code (or object)"}
+{"float()", "Returns a floating point number"}
+{"get()", "Returns the value of the specified key"}
+{"hash()", "Returns the hash value of a specified object"}
+{"help()", "Executes the built-in help system"}
+{"index()", "Returns the index of the first element with the specified value and searches the string or tuple for a specified value and returns the position of where it was found"}
+{"input()", "Allowing user input"}
+{"insert()", "Adds an element at the specified position"}
+{"int()", "Returns an integer number"}
+{"intersection()", "Returns a set, that is the intersection of two or more sets"}
+{"list()", "Returns a list"}
+{"pop()", "Removes an element from the set"}
+{"print()", "Prints to the standard output device"}
+{"remove()", "Removes the specified element"}
+{"set()", "Returns a new set object"}
+{"sort()", "Sorts the list"}
+{"sorted()", "Returns a sorted list"}
+{"str()", "Returns a string object"}
+{"sum()", "Sums the items of an iterator"}
+{"tell()", "Returns the current file position"}
+{"title()", "Converts the first character of each word to upper case"}
+{"tuple()", "Returns a tuple"}
+{"type()", "Returns the type of an object"}
+{"update()", "Updates the dictionary with the specified key-value pairs"}
+{"values()", "Returns a list of all the values in the dictionary"}
