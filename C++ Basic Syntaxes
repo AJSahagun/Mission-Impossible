@@ -1,71 +1,49 @@
-//Basic syntaxes of C++
-
-//parts of the syntax
-
-Class :It is basically a template or blueprint that describes the behavior/states of the object.
-
-Comments: A comment is a code that is not executed by the compiler, and the programmer uses it to keep track of the code.
-
-Constructors: It is a special method that is called automatically as soon as the object is created
-
-Escape Sequences: It is a sequence of characters starting with a backslash, and it doesn't represent itself when used inside string literal.
-
-Exception Handling: An exception is an unusual condition that results in an interruption in the flow of the program.
-
-Instance Variables :The state of an object is generally created by the values that are assigned to the instance variables as each object has its own unique set of instance variables.
-
-Methods :Any behavior can be called as the methods in C++. Methods are known as the most important part of the C++ as all the operations like writing logics, manipulating data and all other actions are executed. There can be numerous methods in a class.
-
-Object :Objects in C++ consists of behaviors and states, for instance: A tree has a name and color and characteristics. Please note that object is basically an instance of class.
-
-Strings: It is a collection of characters surrounded by double quotes ("")
-
 // basic syntax and functions
 
-#include <iostream>: the header file which contains all the functions of program like cout, cin etc. and #include tells the preprocessor to include these header file in the program.
-+: Adds together two values
--: Subtracts one value from another
-*:	Multiplies two values
-/:	Divides one value by another	
-%: Returns the division remainder	
-++:	Increases the value of a variable by 1	
---:	Decreases the value of a variable by 1
-string&: Means "get the mem address of this variable"
-string*: Creating a pointer which "points" to the mem address of a variable
-.appended: It is used to concatenate two strings
-.length: It returns the length of the string
- /*: /* It's a multi-line comment */
-//: // It's a single line comment
-\': It adds a single quotation mark
-\?: It adds a question mark
-\\: It adds a backslashspace
-\0: The null character is usually used to terminate a string
-\a: It produces a beep sound
-\b: It adds backspace
-\f: Formfeed character
-\n: Newline character
-\nnn: It represents the value of an octal number
-\r: Carriage return
-\t: Gives tab space
-\xhh: It represents the value of a hexadecimal number
-bool:	Stores true or false values
-break: Used to terminate the loop
-catch: allows to define a block of code to be executed, if an error occurs in the try block.
-char: Typically a single octet(one byte). It is an integer type
-cin>>: It takes input from the user
-continue: Skips the rest of the current iteration of the loop and returns to the starting point of the loop
-cout<<: It prints output on the screen
-double: A double-precision floating-point value
-else: If the condition is False then this block will get executed
-float: A single-precision floating-point value
-for: It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list.
-function: Used to divide an extensive program into smaller pieces.
-if: Code will get executed if the condition is True
-int: The most natural size of integer for the machine
-recurse: Recursion is when a function calls a copy of itself to work on a minor problem.
-switch case: It allows a variable to be tested for equality against a list of values (cases).
-throw: Throws an exception when a problem is detected, which lets us create a custom error.
-try: Allows to define a block of code to be tested for errors while it is being executed.
-using namespace std.: Use the namespace named std. “std” is an abbreviation for standard.
-void: Represents the absence of the type
-while: It iterates the block of code as long as a specified condition is True
+{"iostream", "the header file which contains all the functions of program like cout, cin etc. and #include tells the preprocessor to include these header file in the program"}
+{"+", "Adds together two values"}
+{"-", Subtracts one value from another."}
+{"*",	"Multiplies two values."}
+{"/",	"Divides one value by another."}	
+{"%", "Returns the division remainder."}	
+{"++",	"Increases the value of a variable by 1."}	
+{"--",	"Decreases the value of a variable by 1."}
+{"string&", "Means get the mem address of this variable."}
+{"string*", "Creating a pointer which "points" to the mem address of a variable."}
+{".appended", "It is used to concatenate two strings."}
+{".length", "It returns the length of the string."}
+{"/*", "/* It's a multi-line comment */."}
+{"//", "// It's a single line comment."}
+{"\'", "It adds a single quotation mark."}
+{"\?", "It adds a question mark."}
+{"\\", "It adds a backslashspace."}
+{"\0", "The null character is usually used to terminate a string."}
+{"\a", "It produces a beep sound."}
+{"\b", "It adds backspace."]
+{"\f", "Formfeed character."}
+{"\n", Newline character."}
+{"\nnn", "It represents the value of an octal number."}
+{"\r", "Carriage return."}
+{"\t", "Gives tab space."}
+{"\xhh", It represents the value of a hexadecimal number."}
+{"bool",	Stores true or false values."}
+{"break", Used to terminate the loop,"}
+{"catch", allows to define a block of code to be executed, if an error occurs in the try block."}
+{"char", Typically a single octet(one byte). It is an integer type."}
+{"cin>>", It takes input from the user."}
+{"continue", "Skips the rest of the current iteration of the loop and returns to the starting point of the loop."}
+{"cout<<", "It prints output on the screen."}
+{"double", "A double-precision floating-point value."}
+{"else", "If the condition is False then this block will get executed."}
+{"float", "A single-precision floating-point value
+{"for", "It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list."}
+{"function", "Used to divide an extensive program into smaller pieces."}
+{"if", "Code will get executed if the condition is True."}
+{"int", "The most natural size of integer for the machine."}
+{"recurse", "Recursion is when a function calls a copy of itself to work on a minor problem."}
+{"switch case", "It allows a variable to be tested for equality against a list of values (cases)."}
+{"throw", "Throws an exception when a problem is detected, which lets us create a custom error."}
+{"try", "Allows to define a block of code to be tested for errors while it is being executed."}
+{"using namespace std.", "Use the namespace named std. “std” is an abbreviation for standard."}
+{"void", "Represents the absence of the type."}
+{"while", "It iterates the block of code as long as a specified condition is True."}
