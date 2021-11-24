@@ -20,7 +20,7 @@
 (“int”,”By default, the int data type is a 32-bit signed two's complement integer, which has a minimum value of -231 and a maximum value of 231-1.”)
 (“interfaces”,”Interfaces are types which contain no fields and usually define a number of methods without an actual implementation. They are useful to define a contract with any number of different implementations. Every interface is implicitly abstract.”)
 (“long”,”The long data type is a 64-bit two's complement integer. The signed long has a minimum value of -263 and a maximum value of 263-1. In Java SE 8 and later, you can use the long data type to represent an unsigned 64-bit long, which has a minimum value of 0 and a maximum value of 264-1.”)
-(“private”,”The private keyword is an access modifier used for attributes, methods and constructors, making them only accessible within the declared class.”)
+(“private”,”It is an access modifier used for attributes, methods and constructors, making them only accessible within the declared class.”)
 (“protected”,”Is an access modifier used for attributes, methods and constructors, making them accessible in the same package and subclasses.”)
 (“public”,”It is a Java keyword which declares a member's access as public. Public members are visible to all other classes.”)
 (“return”,”It is used to end method execution and to return a value.”)
