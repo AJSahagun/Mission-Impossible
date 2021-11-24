@@ -27,9 +27,9 @@
 (“short”,”The short data type is a 16-bit signed two's complement integer. It has a minimum value of -32,768 and a maximum value of 32,767 (inclusive).”)
 (“static”,”static keyword is used to define the class level members of a class. static members of a class are stored in the class memory and you can access them directly through class name.”)
 (“String[]”,”string is basically an object that represents sequence of char values. An array of characters works same as Java string.”)
-(“switch(statement)”,”A switch statement allows a variable to be tested for equality against a list of values. Each value is called a case, and the variable being switched on is checked for each case.”)
-(“try”,”A try statement is used to catch exceptions that might be thrown as your program executes.”)
+(“switch(statement)”,”It allows a variable to be tested for equality against a list of values. 
+(“try”,”It is used to catch exceptions that might be thrown as your program executes.”)
 (“void System.out.print(String s)”,”will perform the basic print s”)
 (“void System.out.println(String s)”,”will perform the print with a newline”)
 (“void System.out.println()”,”will print a newline”)
-(“while”,” ava while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition.”)
+(“while”,” It is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition.”)
